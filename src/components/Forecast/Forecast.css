@@ -1,0 +1,41 @@
+.main-title {
+    color: #393E46;
+}
+.textInput {
+    font-size: large;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    margin: 40px auto 30px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+
+.radio {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #393E46;
+}
+
+.button {
+    display: block;
+    margin: 50px auto 40px auto;
+    padding: .5rem;
+    font-size: 1em;
+    background-color: #4CA1A3;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: #4CA1A3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    background-color: #A3D2CA;
+}
